@@ -65,6 +65,7 @@ This app is very easy to install and deploy localy in a Docker container.
 
 ```sh
 cd ./objectdetectionyolov8
+xhost +
 docker build . -t objectdetection
 ```
 
