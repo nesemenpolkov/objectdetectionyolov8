@@ -53,7 +53,7 @@ Install the dependencies and start the application.
 git clone https://github.com/nesemenpolkov/objectdetectionyolov8.git
 cd ./objectdetectionyolov8
 pip install requirements.txt
-python3 main.py
+python3 detect.py
 ```
 
 
