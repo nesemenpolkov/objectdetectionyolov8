@@ -45,7 +45,7 @@ I used the following stack of technologies:
 
 ## Installation
 
-Dillinger requires [python3.12+](https://python.org/) to run.
+Project requires [python3.12+](https://python.org/) to run.
 
 Install the dependencies and start the application.
 
