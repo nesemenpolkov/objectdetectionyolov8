@@ -65,7 +65,6 @@ This app is very easy to install and deploy localy in a Docker container.
 
 ```sh
 cd ./objectdetectionyolov8
-xhost +
 docker build . -t objectdetection
 ```
 
@@ -74,6 +73,7 @@ This will create the docker image.
 Once done, run the Docker image and map device(camera), display and xorg volume for correct operation:
 
 ```sh
+xhost +
 docker run --device /dev/video0:/dev/video0 --net=host -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:rw objectdetection
 ```
 
